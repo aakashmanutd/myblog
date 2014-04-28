@@ -5,7 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
+#heroku gem
 gem "heroku"
+#omni auth for mulitiple login integration
+gem 'omniauth'
+gem 'omniauth-facebook', '1.4.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

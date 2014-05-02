@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :accounts
   #get 'welcome/index'
   root 'welcome#index'
   match 'auth/:provider/callback', to: 'sessions#create', via: [:get, :post]
